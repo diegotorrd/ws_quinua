@@ -32,6 +32,12 @@
       <artifactId>jersey-servlet</artifactId>
       <version>1.19</version>
     </dependency>
+    
+    <dependency>
+	    <groupId>org.postgresql</groupId>
+	    <artifactId>postgresql</artifactId>
+	    <version>42.1.1.jre7</version>
+	</dependency>
   </dependencies>
   <build>
     <finalName>RestQuinua</finalName>
